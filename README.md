@@ -6,8 +6,7 @@
 
 ## Description
 
-Web scraping project to access Twitter throught the tweepy API (https://docs.tweepy.org/en/latest/). It allows you to obtain information about your personal profile or abaout any other profile from its username. It also allows you to get the latest tweets published by the users you are following, the latest tweets from a particular user, the latest tweets containing a specific word or the latest tweets posted from a particular location.
-
+Web scraping project to access Twitter throught the tweepy API (https://docs.tweepy.org/en/latest/). It allows you to obtain information about your personal profile or about any other profile from its username. It also allows you to get the latest tweets published by the users you are following, the latest tweets from a particular user, the latest tweets containing a specific word or the latest tweets posted from a particular location.
 
 
 ## Requirements
