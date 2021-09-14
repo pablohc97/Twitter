@@ -1,10 +1,51 @@
 # Twitter
 
-## Descripción
+<p>
+    <img src="https://pbs.twimg.com/profile_images/1354502907643666435/CpGOlLK-_400x400.jpg" width="240" height="240" />
+</p>
 
-Codigo para acceder a Twitter mediante la API tweepy (https://docs.tweepy.org/en/latest/). Permite obtener información de nuestro perfil o la de cualquier otro perfil a partir de su nombre de usuario. Permite obtener los últimos tweets publicados por los usuarios a los que seguimos, los últimos tweets de un usuario en particular, los últimos tweets que contengan una palabra determinada o los últimos tweets publicados desde una localización en particular.
+## Description
+
+Web scraping project to access Twitter throught the tweepy API (https://docs.tweepy.org/en/latest/). It allows you to obtain information about your personal profile or abaout any other profile from its username. It also allows you to get the latest tweets published by the users you are following, the latest tweets from a particular user, the latest tweets containing a specific word or the latest tweets posted from a particular location.
 
 
-## Requerimientos
 
-Para poder utilizar la API es necesario obtener una cuenta de desarrollador de Twitter para obtener las claves de acceso (https://developer.twitter.com/en/apply-for-access). Una vez obtenidas, modificar el archivo **config_twitter.py**, que debe estar ubicado en la misma carpeta que el script, con nuestro consumer_key, consumer_secret, access_token y access_secret.
+## Requirements
+
+In order to use the API, it is necessary to have a Twitter developer account to obtain the access keys (you can do it from: https://developer.twitter.com/en/apply-for-access). Once you have your account, you have to modify the file ** config_twitter.py ** with your consumer_key, consumer_secret, access_token and access_secret. It must be located in the same folder as the script.
+
+## Results
+
+- Your profile information or other profile information (searched by user name):
+  - Profile ID
+  - Name
+  - Location
+  - Created datetime
+  - Profile image
+  - Favs count
+  - Followers
+  - Following
+  - Geolocation activated
+  - Background image
+
+- Tweets:
+  - Date of posting
+  - Tweet ID
+  - User
+  - Tweet text
+  - Language
+  - Retweet count
+  - Fav count
+  - Replay to ID (if the tweet has been a response)
+  - Replay to name (if the tweet has been a response)
+  - Coordinates (if activated)
+  - Hastags 
+  - URLs
+  - User mentions
+  - Images/Videos
+
+All this information about tweets can be search in four different ways:
+  - Get the last N tweets posted by users we are following
+  - Get the last N tweets posted by an specify user searched by its username.
+  - Get the last N tweets posted that contain a word.
+  - Get the last N tweets posted from a location.
