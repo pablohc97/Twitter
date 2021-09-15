@@ -6,12 +6,12 @@
 
 ## Description
 
-Web scraping project to access Twitter throught the tweepy API (https://docs.tweepy.org/en/latest/). It allows you to obtain information about your personal profile or about any other profile from its username. It also allows you to get the latest tweets published by the users you are following, the latest tweets from a particular user, the latest tweets containing a specific word or the latest tweets posted from a particular location.
+Web scraping project to access Twitter throught the tweepy API (Tweetpy API webpage [here](https://docs.tweepy.org/en/latest/)). It allows you to obtain information about your personal profile or about any other profile from its username. It also allows you to get the latest tweets published by the users you are following, the latest tweets from a particular user, the latest tweets containing a specific word or the latest tweets posted from a particular location.
 
 
 ## Requirements
 
-In order to use the API, it is necessary to have a Twitter developer account to obtain the access keys (you can do it from: https://developer.twitter.com/en/apply-for-access). Once you have your account, you have to modify the file ** config_twitter.py ** with your consumer_key, consumer_secret, access_token and access_secret. It must be located in the same folder as the script.
+In order to use the API, it is necessary to have a Twitter developer account to obtain the access keys. You can do it from [here](https://developer.twitter.com/en/apply-for-access). Once you have your account, you have to modify the file ** config_twitter.py ** with your consumer_key, consumer_secret, access_token and access_secret. It must be located in the same folder as the script.
 
 ## Results
 
