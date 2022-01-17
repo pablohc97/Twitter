@@ -6,7 +6,7 @@
 
 ## Description
 
-Web scraping project to access Twitter throught the tweepy API (Tweetpy API webpage [here](https://docs.tweepy.org/en/latest/)). It allows you to obtain information about your personal profile or about any other profile from its username. It also allows you to get the latest tweets published by the users you are following, the latest tweets from a particular user, the latest tweets containing a specific word or the latest tweets posted from a particular location.
+Web scraping project to access Twitter throught the tweepy API ([Tweetpy API webpage](https://docs.tweepy.org/en/latest/)). It allows you to obtain information about your personal profile or about any other profile from its username. It also allows you to get the latest tweets published by the users you are following, the latest tweets from a particular user, the latest tweets containing a specific word or the latest tweets posted from a particular location.
 
 
 ## Requirements
@@ -15,7 +15,7 @@ In order to use the API, it is necessary to have a Twitter developer account to 
 
 ## Results
 
-- Your profile information or other profile information (searched by user name):
+- Your profile information or other profile information (by username):
   - Profile ID
   - Name
   - Location
@@ -35,8 +35,8 @@ In order to use the API, it is necessary to have a Twitter developer account to 
   - Language
   - Retweet count
   - Fav count
-  - Replay to ID (if the tweet has been a response)
-  - Replay to name (if the tweet has been a response)
+  - Replay to ID (if it has been a response)
+  - Replay to name (if it has been a response)
   - Coordinates (if activated)
   - Hastags 
   - URLs
@@ -44,7 +44,7 @@ In order to use the API, it is necessary to have a Twitter developer account to 
   - Images/Videos
 
 All this information about tweets can be search in four different ways:
-  - Get the last N tweets posted by users we are following
-  - Get the last N tweets posted by an specify user searched by its username.
-  - Get the last N tweets posted that contain a word.
-  - Get the last N tweets posted from a location.
+  - Last N tweets from users you are following.
+  - Last N tweets of a specific user searched by username.
+  - Last N tweets that contain a given word.
+  - Last N tweets posted from a given location.
